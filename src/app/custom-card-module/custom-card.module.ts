@@ -1,6 +1,6 @@
-import { CustomCardComponent } from './../custom-card/custom-card.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CustomCardComponent } from '../custom-card/custom-card.component';
 
 @NgModule({
   declarations: [CustomCardComponent],
@@ -9,4 +9,4 @@ import { CommonModule } from '@angular/common';
   ],
   exports: [CustomCardComponent]
 })
-export class CustomCardModuleModule { }
+export class CustomCardModule { }
